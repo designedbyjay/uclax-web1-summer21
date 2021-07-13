@@ -33,7 +33,7 @@
         "node-sass": "^6.0.1",
         "nodemon": "^2.0.2"
     },
-    "homepage": "https://web-1-gohman-mitch-final.herokuapp.com/",
+    "homepage": "https://web-1-ramirez-jay-final.herokuapp.com/",
     "heroku-run-build-script": true,
     "scripts": {
         "start": "NODE_ENV=production node express.js",
