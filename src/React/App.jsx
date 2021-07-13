@@ -1,10 +1,12 @@
 import React from 'react';
 import SunAndMoon from './SunAndMoon/SunAndMoon.jsx';
+import Homework from './Homework/Homework.jsx';
 const App = () => {
     return (
-        <div>My Coooooool React App
+        <div>
+            <h1>My Coooooool React App</h1>
             <SunAndMoon/>
-            
+            <Homework/>
         </div>
     );
 }
