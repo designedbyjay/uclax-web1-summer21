@@ -19,7 +19,7 @@ const EssayStyled = styled.div`
     border: solid 5px teal;
     margin: 20px;
 h2 {padding: 20px; margin:10px;}
-h3{margin 0px 0px 10px;}
+
 
 .question {
     font-size: 18px;
