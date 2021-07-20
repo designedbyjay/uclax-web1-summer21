@@ -27,6 +27,15 @@ const Homework = () => {
                  <p>CSS is short for cascading sytle sheets. It helps us all define rules and orders around how HTML is actually displayed and render on a page. There are multiple CSS libraries that help us for different reasons depending on what goals you have in mind.</p>
                  <p>JS is short for Javascript. JS helps manipulate and create more interactive experiences on a give page. It help us speak to both HTML and CSS and do things that just HTML and CSS can't do alone.</p>
                 </Essay>
+
+
+                <Essay
+
+                number ={ 3 }
+                question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
+>
+    My answer is as follows.
+                </Essay>
             
             </div>
             
