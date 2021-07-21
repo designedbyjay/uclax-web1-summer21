@@ -15,5 +15,6 @@ export default Header;
 const HeaderStyled = styled.header`
 background-color: teal;
 padding: 20px;
-text-align: center;
+text-align: left;
 `;
+

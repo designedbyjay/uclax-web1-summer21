@@ -30,7 +30,7 @@ const SunAndMoon = () => {
 export default SunAndMoon;
 
 const SunAndMoonStyled = styled.div`
-    background-color: #dark grey;
+    background-color: #1d1d1d;
     text-align: center;
     padding-bottom:50px;
 

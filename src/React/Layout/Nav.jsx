@@ -19,7 +19,7 @@ export default Nav;
 const NavStyled = styled.nav `
     background-color:#005050;
     padding:10px;
-    text-align: center;
+    text-align: left;
 
 a{
     display: inline-block;

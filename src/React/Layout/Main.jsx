@@ -4,11 +4,12 @@ import styled from 'styled-components'
 import Homework from'../Homework/Homework.jsx';
 import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
+
 const Main = () => {
     return  (
         <MainStyled>
             <h1>The main content</h1>
-            <SunAndMoon />
+        
             <Homework />
         </MainStyled>
 
@@ -23,4 +24,5 @@ const MainStyled = styled.main`
     color: grey;
     padding:50px;
     text-align: center;
+
 `;
