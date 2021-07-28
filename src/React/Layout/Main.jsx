@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Switch, Route } from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom'
  
 import Homework from'../Homework/Homework.jsx';
 
@@ -24,9 +24,8 @@ const Main = () => {
             <Route path='/' exact>
                 Welcome
             </Route>
-
         </Switch>
-            <Homework />
+      
         </MainStyled>
 
         )
@@ -36,9 +35,6 @@ export default Main;
 
 
 const MainStyled = styled.main`
-    background-color:#1a1a1a;
-    color: grey;
-    padding:50px;
-    text-align: center;
-
+    background-color:#fff;
+    padding:10px;
 `;

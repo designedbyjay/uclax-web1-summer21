@@ -2,6 +2,7 @@ import React from 'react';
 import Essay from './Essay.jsx';
 import { useMediaQuery } from 'common/mediaQueries/useMediaQuery.js';
 import SunAndMoon from 'React/SunAndMoon/SunAndMoon.jsx';
+import { Switch, Route } from 'react-router-dom';
 
 const Homework = () => {
 
