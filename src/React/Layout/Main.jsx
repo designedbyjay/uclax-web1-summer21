@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import {Switch, Route} from 'react-router-dom'
  
+import Welcome from'../Pages/Welcome/Welcome.jsx';
+import Login from'../Pages/Login/Login.jsx';
+import Contact from'../Pages/Contact/Contact.jsx';
+import Services from'../Pages/Services/Services.jsx';
 import Homework from'../Homework/Homework.jsx';
 
 const Main = () => {
@@ -10,19 +14,19 @@ const Main = () => {
             <h1>The main content</h1>
         <Switch>
             <Route path='/services'>
-                Services
+                <Services />
             </Route>
             <Route path='/contact'>
-                Contact
+                <Contact />
             </Route>
             <Route path='/login'>
-                Login
+                < Login />
             </Route>
             <Route path='/homework'>
                <Homework />
             </Route>
             <Route path='/' exact>
-                Welcome
+               <Welcome />
             </Route>
         </Switch>
       
@@ -37,4 +41,10 @@ export default Main;
 const MainStyled = styled.main`
     background-color:#fff;
     padding:10px;
+
+
+    div {
+        border: solid 2px red;
+        padding:20px;
+    }
 `;
