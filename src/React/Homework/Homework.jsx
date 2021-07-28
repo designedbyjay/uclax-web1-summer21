@@ -1,10 +1,19 @@
 import React from 'react';
 import Essay from './Essay.jsx';
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery.js';
+import SunAndMoon from 'React/SunAndMoon/SunAndMoon.jsx';
+
 const Homework = () => {
+
+    const { media} = useMediaQuery();
+    console.log ('media', media);
 
     return (
         <div> 
+ 
+            {media.lg && <SunAndMoon /> }
             <h2>HOMEWORK</h2>
+
             <Essay
                 number ={ 1 }
                 question='What is the difference between Git, Github and Heroku?'
@@ -36,6 +45,27 @@ const Homework = () => {
 >
     My answer is as follows.
                 </Essay>
+
+
+                <Essay
+
+                number ={ 4 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+                >
+                <li><b>Web Designer</b> Visual look of a websire and interactive design work.</li>
+                <li><b>Front End Developer</b> All of the programming related to HTML, CSS and JS.</li>
+                <li><b>Back End Developer</b> Programming server s ide apps (e.g. PHP, Python, Database and Secruity.)</li>
+            
+                </Essay>
+
+                <Essay
+
+                number ={ 5 }
+                question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
+                >
+                My answer is as follows.
+                </Essay>
+                            
             
             </div>
             
