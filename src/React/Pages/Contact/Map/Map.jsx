@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Map = () => {
 
     return (
-    <WMapStyled className="Map">
+    <MapStyled className="Map">
       <h1>Map page</h1>
 
     </MapStyled>
@@ -15,5 +15,4 @@ const Map = () => {
 export default Map;
 
 const MapStyled = styled.div`
-
 `;

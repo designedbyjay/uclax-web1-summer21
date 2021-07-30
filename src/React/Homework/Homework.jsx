@@ -66,6 +66,14 @@ const Homework = () => {
                 >
                 My answer is as follows.
                 </Essay>
+
+                <Essay
+
+                number ={ 6 }
+                question='What is the difference between jpg, gif, png and SVG images?'
+                >
+                My answer is as follows.
+                </Essay>
                             
             
             </div>

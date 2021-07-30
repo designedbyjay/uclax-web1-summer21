@@ -9,7 +9,7 @@ const Services = () => {
     );
 }
 
-export default Login;
+export default Services;
 
 const ServicesStyled = styled.div`
 

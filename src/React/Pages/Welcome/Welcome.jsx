@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SlideShow from './Slideshow/Slideshow.jsx';
+import Slideshow from './Slideshow/Slideshow.jsx';
 import Tabbed from './Tabbed/Tabbed.jsx';
 import Staff from './Staff/Staff.jsx';
 
