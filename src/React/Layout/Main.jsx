@@ -44,7 +44,7 @@ const MainStyled = styled.main`
 
 
     div {
-        border: solid 2px red;
+        border: solid 1px grey;
         padding:20px;
     }
 `;
