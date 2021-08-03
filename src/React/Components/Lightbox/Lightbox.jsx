@@ -6,7 +6,8 @@ import Dark from './Dark.jsx';
 const Lightbox = () => {
 
     return (
-        <LightboxStyled className='Lightbox'>   
+        <LightboxStyled className='Lightbox'>
+   
             <Dark />
         </LightboxStyled>
     );

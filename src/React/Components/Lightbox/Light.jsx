@@ -6,7 +6,7 @@ const Light = () => {
 
     return (
         <LightStyled className='Light'>
-            Light 
+           Let there be Light 
         </LightStyled>
     );
 }
@@ -16,7 +16,7 @@ export default Light;
 const LightStyled = styled.div`
     position: absolute;
     background-color: #fff;
-    
+
     width: 200px;
     height: 300px;
 
