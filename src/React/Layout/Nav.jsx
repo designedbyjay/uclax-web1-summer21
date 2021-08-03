@@ -18,14 +18,14 @@ return (
 export default Nav; 
 
 const NavStyled = styled.nav `
-    background-color:#005050;
+    background-color:#e1daa8;
     padding:10px;
     text-align: center;
 
 a{
     display: inline-block;
-    border-radius: 2px;;
-    background-color: teal;
+    border-radius: 2px;
+    background-color#004646;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -36,11 +36,12 @@ a{
 
     &:hover {
         color: teal;
-        background-color: white;
+        background-color: grey;
     }
     
     &.active{
-        background-color: #303030;
+        background-color: teal;
+        font-weight: bold;
     }
 
 }

@@ -13,8 +13,9 @@ return (
 export default Header; 
 
 const HeaderStyled = styled.header`
-background-color: teal;
+background-color: #b9b482;
 padding: 20px;
-text-align: left;
+color: white;
+text-align: center;
 `;
 
