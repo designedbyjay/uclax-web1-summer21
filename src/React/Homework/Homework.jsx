@@ -64,7 +64,10 @@ const Homework = () => {
                 number ={ 5 }
                 question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
                 >
-                My answer is as follows.
+                <p>Site Relative: These are paths describe the path from the site’s root folder to a document. </p>
+                <p>Document Relative: Document-relative paths are the most appropriate paths to use for local links in most websites. </p>
+                <p>Absolute Paths: This refers to the entire URL address when referencing a page or resource.</p>
+
                 </Essay>
 
                 <Essay
@@ -72,7 +75,11 @@ const Homework = () => {
                 number ={ 6 }
                 question='What is the difference between jpg, gif, png and SVG images?'
                 >
-                My answer is as follows.
+                <p>Jpg:JPEG or JPG is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. </p>
+                <p>GIF: The Graphics Interchange Format is a bitmap image format and supports animations.</p>
+                <p>PNG:Supports allpha tranparency and compresses differently compared to the other file formats.</p>
+                <p>SVG: Vector supported image type. All of the other types are rasterized.  </p>
+
                 </Essay>
 
                 <Essay
