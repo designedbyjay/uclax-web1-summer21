@@ -74,6 +74,14 @@ const Homework = () => {
                 >
                 My answer is as follows.
                 </Essay>
+
+                <Essay
+
+                number ={ 7 }
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+                >
+                My answer is as follows.
+                </Essay>
                             
             
             </div>

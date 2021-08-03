@@ -35,7 +35,7 @@ a{
 
 
     &:hover {
-        color: teal;
+        color: black;
         background-color: grey;
     }
     
