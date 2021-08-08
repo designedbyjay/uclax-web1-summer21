@@ -95,10 +95,16 @@ const Homework = () => {
                 <p> <strong>Web Developer/Engineer: </strong>Helps develop and code the functionality of a given website and app. </p>
                 <p><strong>Quality Assurance: </strong> The person that is responsible for the quality of the code, user interface design and things looking great across multiples devices and operating systems. This person conducts helps the team ship good code, design before releasing to the masses of people.</p>
                 <p><strong>DevOps: </strong> This person is the lead for the engineers that supports with resourcing, estimates and often partners with the scrum master and projects to ensure accurate level of effort is spoken to when estimates story points for development tasks.  </p>
+                </Essay>
+            
+                <Essay
+
+                number ={ 8 }
+                question='  What is considered the right size for an image or video asset?'
+                >
+                <p>The is answer is as follows.</p>
 
                 </Essay>
-                            
-            
             </div>
             
       
