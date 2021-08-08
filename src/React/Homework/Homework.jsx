@@ -87,7 +87,15 @@ const Homework = () => {
                 number ={ 7 }
                 question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
                 >
-                My answer is as follows.
+           
+                <p><strong>Project Manager: </strong> This person helps the team stick to our timeline and estimates and ensure we meet deadlines.</p>
+                <p><strong>Business Analyst: </strong> A BA or product manager helps develop the business case for the project at hand to help the company reach it's goals and objectives. This persons helps kicks off the project along with everyone listed here.</p>
+                <p><strong>Scrum Master: </strong>This person helps keep this cross-functional team stay on target and enable the team to reach each of the milestones as part of the overall project management duties. This person also helps with keeping us agile and ensure we prioritize things with the Agila methodlogy.</p>
+                <p><strong>UX Designer: </strong> The person who ultimately helps conceptualize, plan, organize content for a given website, mobile app or web app. Comes up with the overall look and feel and helps address business requirements and user needs.</p>
+                <p> <strong>Web Developer/Engineer: </strong>Helps develop and code the functionality of a given website and app. </p>
+                <p><strong>Quality Assurance: </strong> The person that is responsible for the quality of the code, user interface design and things looking great across multiples devices and operating systems. This person conducts helps the team ship good code, design before releasing to the masses of people.</p>
+                <p><strong>DevOps: </strong> This person is the lead for the engineers that supports with resourcing, estimates and often partners with the scrum master and projects to ensure accurate level of effort is spoken to when estimates story points for development tasks.  </p>
+
                 </Essay>
                             
             
