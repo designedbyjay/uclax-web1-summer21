@@ -102,7 +102,7 @@ const Homework = () => {
                 number ={ 8 }
                 question='  What is considered the right size for an image or video asset?'
                 >
-                <p>The is answer is as follows.</p>
+                <p>When uploading images to the web there are a number of things to take into consideration, such as what is the image being used for, how large should the file be, and what type of image should be used for different areas on your site.</p>
 
                 </Essay>
             </div>
