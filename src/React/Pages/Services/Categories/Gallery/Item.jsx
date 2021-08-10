@@ -5,7 +5,9 @@ const Item = () => {
 
     return (
         <ItemStyled className='Item'>
-            Item 
+         <img src="/img/Services/service-1.jpg" alt="whatever"/> 
+         <h3>Title</h3>
+
         </ItemStyled>
     );
 }
@@ -13,5 +15,8 @@ const Item = () => {
 export default Item;
 
 const ItemStyled = styled.div`
-    
+    img{
+        border: 13px teal solid;
+        padding-bottom: 70px;
+    }
 `;

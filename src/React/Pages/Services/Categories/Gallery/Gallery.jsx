@@ -8,6 +8,10 @@ const Gallery = () => {
     return (
         <GalleryStyled className='Gallery'>
            <Item /> 
+           <Item /> 
+           <Item /> 
+           <Item /> 
+           
         </GalleryStyled>
     );
 }

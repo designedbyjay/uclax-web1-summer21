@@ -8,6 +8,11 @@ const Categories = () => {
     return (
         <CategoriesStyled className='Categories'>
            <Category />
+           <Category />
+           <Category />
+           <Category />
+           <Category />
+
         </CategoriesStyled>
     );
 }
@@ -15,5 +20,6 @@ const Categories = () => {
 export default Categories;
 
 const CategoriesStyled = styled.div`
-    
+    text-align: center;
+    margin-bottom: 15px;
 `;
