@@ -28,7 +28,7 @@ display: flex;
 
 .image {
     flex: 1;
-    border: 20px solid solid;
+    border: 20px white solid;
     padding:20px;
     img {
         max-width:100%;
