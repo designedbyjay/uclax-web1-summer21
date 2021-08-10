@@ -17,7 +17,7 @@ const LightboxContent = () => {
         <PlaygroundStyled className='Playground'>
             <h2>Playground</h2>
             <Lightbox LightboxContent ={LightboxContent}>
-            My Content
+                My Content
             </Lightbox>
         </PlaygroundStyled>
     );

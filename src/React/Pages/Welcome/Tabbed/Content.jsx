@@ -22,12 +22,14 @@ export default Content;
 const ContentStyled = styled.div`
     
 padding: 20px;
-background-color: teal;
+background-color: #e8e8e8;
 min-height: 200px;
 display: flex;
 
 .image {
     flex: 1;
+    border: 20px solid solid;
+    padding:20px;
     img {
         max-width:100%;
     }

@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+
+import { mediaQueries } from 'common/mediaQueries/mediaQueries';
+
+
 const Nav = () => {
 return (
 
@@ -23,9 +27,9 @@ const NavStyled = styled.nav `
     text-align: center;
 
 a{
-    display: inline-block;
+    display: block;
     border-radius: 2px;
-    background-color#004646;
+    background-color:teal;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -45,6 +49,13 @@ a{
     }
 
 }
-
+@media ${mediaQueries.mdUp}{
+    a {
+        display:inline-block;
+        margin: 0px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
 
 `;

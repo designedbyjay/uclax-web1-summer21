@@ -103,10 +103,22 @@ const Homework = () => {
                 question='  What is considered the right size for an image or video asset?'
                 >
                 <p>When uploading images to the web there are a number of things to take into consideration, such as what is the image being used for, how large should the file be, and what type of image should be used for different areas on your site.</p>
+                <p>It depends for what the application is: avatars, hero images, optimize for SEO and UX and accessiblity.</p>
+                </Essay>
+
+                <Essay
+
+                number ={ 9 }
+                question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
+                >
+                <p>Agile is a development methodlogy that software development teams use to help guide and structure their work. In which the stories that  </p>
 
                 </Essay>
+
             </div>
-            
+          
+
+
       
     );
 

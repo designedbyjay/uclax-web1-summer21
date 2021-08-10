@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import style from 'styled-components'
 
 import Header from './Layout/Header.jsx';
-import Nav from './Layout/Nav.jsx';
+import Navigation from './Layout/Navigation/Navigation.jsx';
 import Main from './Layout/Main.jsx';
 import Footer from './Layout/Footer.jsx';
 import { MediaQueryProvider } from 'common/mediaQueries/useMediaQuery.js';
@@ -16,7 +16,7 @@ const App = () => {
         <BrowserRouter>
    
                 <Header />
-                <Nav />
+                <Navigation />
                 <Main />
                 <Footer />
          

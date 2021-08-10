@@ -15,11 +15,13 @@ const Dark = ({showLightUpdate, children}) => {
         }
 
         document.addEventListener('keydown', handOnKeyDown, false);
+
+        return() => {
+            document.removeEventListener("keydown", handOnKeyDown, false);
+        }
     }, []);
 
-    return() => {
-        document.removeEventListener("keydown", handOnKeyDown, false);
-    }
+
 
     return (
         <DarkStyled className='Dark'>

@@ -8,6 +8,7 @@ const Lightbox = ({children, LightboxContent}) => {
     const [showLight, showLightUpdate] = useState (false);
 
     const toggleShowLight = () => {
+        console.log('click me');
         showLightUpdate(!showLight);
     }
 
@@ -17,7 +18,7 @@ const Lightbox = ({children, LightboxContent}) => {
             {
                 showLight &&
                 <Dark showLightUpdate={showLightUpdate}>
-                <LightboxContent />
+                    <LightboxContent />
                 </Dark>
             }
        
