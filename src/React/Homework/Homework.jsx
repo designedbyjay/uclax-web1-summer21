@@ -111,7 +111,7 @@ const Homework = () => {
                 number ={ 9 }
                 question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
                 >
-                <p>Agile is a development methodlogy that software development teams use to help guide and structure their work. In which the stories that  </p>
+                <p>Agile is a development methodlogy that software development teams use to help guide and structure their work.  </p>
 
                 </Essay>
 
