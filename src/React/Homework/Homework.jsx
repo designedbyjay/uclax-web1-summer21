@@ -109,12 +109,20 @@ const Homework = () => {
                 <Essay
 
                 number ={ 9 }
-                question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
+                question='What does xit means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
                 >
                 <p>Agile is a development methodlogy that software development teams use to help guide and structure their work.  </p>
 
                 </Essay>
 
+                <Essay
+
+                number ={ 10 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+                >
+                <p>Answe is as follows. </p>
+
+                </Essay>
             </div>
           
 
