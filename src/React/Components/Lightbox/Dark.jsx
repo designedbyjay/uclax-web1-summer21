@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 import Light from './Light.jsx';
-const Dark = ({showLightUpdate, children}) => {
+const Dark = ({showLightUpdate, children, width}) => {
 
     useEffect(() => {
         const handOnKeyDown = (event) => {
@@ -36,6 +36,7 @@ export default Dark;
 
 const DarkStyled = styled.div`
     position: fixed;
+    z-index: 1000;
     background-color:rgba(0,0,0, 0.7222);
 
     left: 0px;

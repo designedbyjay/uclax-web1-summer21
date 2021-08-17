@@ -11,7 +11,7 @@ const StaffMember = ({member}) => {
         return (
             <div>    
             <img src={member.image} alt={member.name} />
-            <h3>⭐️ {member.name} ⭐️</h3>
+            <h3>⭐️{member.name} ⭐️</h3>
             </div>
         );
     }
@@ -19,7 +19,7 @@ const StaffMember = ({member}) => {
     return (
        
         <StaffMemberStyled className='StaffMember'>
-            <Lightbox LightboxContent={LightboxContent}>
+            <Lightbox LightboxContent={LightboxContent} width={'300px'}>
                 <img src={member.image} alt={member.name} />
                 <h3>⭐️ {member.name} ⭐️</h3>
             </Lightbox>

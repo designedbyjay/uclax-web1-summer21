@@ -3,9 +3,12 @@ import styled from 'styled-components';
 
 import Lightbox from 'React/Components/Lightbox/Lightbox.jsx';
 import { servicesData } from '../../servicesData';
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery';
 
 
-const Item = ({service, title, description, cost}) => {
+const Item = ({service}) => {
+
+    const {media} = useMediaQuery();
 
 
     const LightboxContent =() => {
@@ -14,15 +17,16 @@ const Item = ({service, title, description, cost}) => {
            <img src={service.image} alt={service.name} />
            <h1>{service.description}</h1>
            <p>{service.description}</p>
-           <p>{service.cost}</p>
+           <p>${service.cost}</p>
             </div>
         );
     }
 
+    const width = (media.MdUp)? '400px' : '200px';
 
     return (
         <ItemStyled className='Item'>
-         <Lightbox LightboxContent={LightboxContent}>
+         <Lightbox LightboxContent={LightboxContent} width={width}>
          <img src={service.image} alt={service.title} />
          <h3>{service.title}</h3>
             {/* <h1>{service.title}</h1> */}

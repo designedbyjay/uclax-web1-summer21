@@ -120,15 +120,24 @@ const Homework = () => {
                 number ={ 10 }
                 question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
                 >
-                <p><strong>Local</strong> A local development environment allows you to use your own computer to run your website or web app, instead of using one provided by a web hosting company. This is useful if you're building something that doesn't need to be used outside of a company or accessed by people on the web. This environment is restricted to what the Developer's desktop/workstation
-is able to reach.</p>
-                <p><strong> Dev</strong>  Development server acting as a sandbox where unit testing may be performed by the developer
-</p> 
-                <p><strong>QA</strong>  The QA environment allows engineers and designers to test and ensure software is upto spec and will work great for production environment release. It's specfically used for user acceptance testing.</p>
-                <p><strong>Production</strong> This enviornment supports written code to access all services and servers to go prime time to be used by users and visitors on the given website or web app. Serves end-users/clients
-</p>
-
+                <p><strong>Local:</strong> A local development environment allows you to use your own computer to run your website or web app, instead of using one provided by a web hosting company. This is useful if you're building something that doesn't need to be used outside of a company or accessed by people on the web. This environment is restricted to what the Developer's desktop/workstation
+                is able to reach.</p>
+                <p><strong> Dev:</strong>  Development server acting as a sandbox where unit testing may be performed by the developer
+                </p> 
+                <p><strong>QA:</strong>  The QA environment allows engineers and designers to test and ensure software is upto spec and will work great for production environment release. It's specfically used for user acceptance testing.</p>
+                <p><strong>Production:</strong> This enviornment supports written code to access all services and servers to go prime time to be used by users and visitors on the given website or web app. Serves end-users/clients
+                </p>
                 </Essay>
+
+                <Essay
+
+                number ={ 11 }
+                question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+                <p>Answer is as follows.</p>
+                </Essay>
+
+
+
             </div>
           
 
