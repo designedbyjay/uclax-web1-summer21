@@ -136,6 +136,23 @@ const Homework = () => {
                 <p>Answer is as follows.</p>
                 </Essay>
 
+                <Essay
+
+                number ={ 12}
+                question='What is the difference between ID? Classes and Tags? How does Specificity play a role in the selection of HTML elements in both in CSS and JS?'>
+                
+                <p>Answer is as follows.</p>
+                </Essay>
+
+
+                <Essay
+
+                number ={ 13}
+                question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'>
+                
+                <p>Answer is as follows.</p>
+                </Essay>
+
 
 
             </div>
