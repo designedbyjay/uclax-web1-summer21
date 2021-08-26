@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 
-import Context from '../../Context/index.js'
+import Context, {updateControl} from '../../../../../../index.js/index.js'
 
 const Input = () => {
 
@@ -17,8 +17,12 @@ const Input = () => {
 
 
     const handleUpdate = (e) => {
+        dispatch(updateControl({
+            fullname: e.target.value
+        }));
         console.log(e.target.value)
-    }
+        }
+
 
     return (
         <InputStyled 

@@ -1,27 +1,32 @@
-/*---------------------------
-| IE 11 Support
----------------------------*/
-import 'react-app-polyfill/ie11';
-import 'react-app-polyfill/stable';
+import {createContext} from 'react';
+export default createContext();
 
-/*---------------------------
-| React and 3rd Party Libraries
----------------------------*/
-import React from 'react';
-import ReactDOM from 'react-dom';
+const actionTypes ={
+    UF_UPDATE_CONTROL: 'UF: updateControl', 
+}
 
-/*---------------------------
-| Components
----------------------------*/
-import App from '../../../App.jsx';
 
-/*---------------------------
-| Global Styles
----------------------------*/
-import './css/normalize.css';
-import './css/global.scss';
 
-/*---------------------------
-| Render to DOM
----------------------------*/
-ReactDOM.render(<App />, document.getElementById('root'));
+export const updateControl = (input) => {
+    return {
+        type: actionTypes.UF_UPDATE_CONTROL,
+        input: input,
+    }
+}
+
+
+export const reducer = (state, action) => {
+    switch(action.type) {
+        case actionTypes.UF_UPDATE_CONTROL:{
+            return {
+                ...state,
+                ...action.input
+            };
+        }
+
+default: {
+    return {...state}
+}
+
+    }
+}
