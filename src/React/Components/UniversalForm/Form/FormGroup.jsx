@@ -1,11 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import FormLabel from './FormLabel';
+import FormControl from './FormControl';
+
 const FormGroup = ({children}) => {
 
     return (
         <FormGroupStyled className='FormGroup'>
-            {children}
+           <FormLabel />
+           <FormControl />
         </FormGroupStyled>
     );
 }

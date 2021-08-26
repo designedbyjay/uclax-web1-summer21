@@ -5,9 +5,13 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm';
 
 const ContactForm = () => {
 
+  const defaultFormData = {
+
+    fullname: 'Dummy Data',
+  }
     return (
     <ContactFormStyled className="ContactForm">
-      <UniversalForm />
+      <UniversalForm defaultFormData={ defaultFormData } />
     </ContactFormStyled>
     );
 }
@@ -15,5 +19,5 @@ const ContactForm = () => {
 export default ContactForm;
 
 const ContactFormStyled = styled.div`
-
+padding: 20px;
 `;

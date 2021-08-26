@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 /*---------------------------
 | Components
 ---------------------------*/
-import App from './React/App.jsx';
+import App from '../../../App.jsx';
 
 /*---------------------------
 | Global Styles

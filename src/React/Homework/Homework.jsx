@@ -133,7 +133,9 @@ const Homework = () => {
 
                 number ={ 11 }
                 question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
-                <p>Answer is as follows.</p>
+                <p>Images are part of the content when they support he information.</p>
+                <p>CSS controls the formatting and styling of the content. Images can recieve CSS properties enabling images inserted by HTML. For example, spacing and border outlines. </p>
+
                 </Essay>
 
                 <Essay
@@ -141,7 +143,10 @@ const Homework = () => {
                 number ={ 12}
                 question='What is the difference between ID? Classes and Tags? How does Specificity play a role in the selection of HTML elements in both in CSS and JS?'>
                 
-                <p>Answer is as follows.</p>
+                <p>IDs help provide deeper specificity. Each ID is unique in it's own way and contain specific rules.</p>
+                <p>Classes share properties among a single tag being referenced over and over again. These are shared properties as opposed to unique instances such as IDs.</p>
+                <p>Tags help orient us in the sense of understanding where they open and close through out our code.</p>
+
                 </Essay>
 
 
