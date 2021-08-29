@@ -1,4 +1,4 @@
-import {createContext} from 'react';
+import { createContext } from 'react';
 export default createContext();
 
 const actionTypes ={
@@ -6,14 +6,39 @@ const actionTypes ={
 }
 
 
+/*Actions - Action creators*/
 
-export const updateControl = (input) => {
-    return {
+export const updateControl = (id, value, dispatch, state) => {
+
+    let newState = {...state };
+
+    newState = updateControls (id, value, newState);
+
+//Validating fields
+
+    dispatch ({
         type: actionTypes.UF_UPDATE_CONTROL,
-        input: input,
+        newState: newState,
+    });
+}
+
+const updateControls = (id, value, currentState) => {
+    const newControls = currentState.controls.map((stateControl) => {
+        if (stateControl.id === id) {
+            stateControl.value = value;
+    }
+    return stateControl;
+});
+
+return {
+    ...currentState,
+    controls: newControls,
     }
 }
 
+
+
+/*State Updater (reducer)*/
 
 export const reducer = (state, action) => {
     switch(action.type) {

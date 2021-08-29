@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import style from 'styled-components'
 
 import Header from './Layout/Header.jsx';
 import Navigation from './Layout/Navigation/Navigation.jsx';

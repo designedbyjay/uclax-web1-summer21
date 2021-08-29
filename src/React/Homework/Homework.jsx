@@ -155,9 +155,31 @@ const Homework = () => {
                 number ={ 13}
                 question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'>
                 
-                <p>Answer is as follows.</p>
+                <p>A CSS Preprocessor helps with the maintainence of multiple style sheets and helps with overall mangagement. Makes updating stylesheets more dynamic and nested styling.</p>
+                <p>Examples are Sass, Less, Stylus</p>
+                <p>In React, what are styled components? JS compinent that contains CSS styling (scoped style)</p>
+                <p>Styled compnents violate seperation of concerns and it puts HTML/CSS/JS into a single space/component.</p>
                 </Essay>
 
+                <Essay
+
+                number ={ 14}
+                question='Final Project Defined'>
+
+                <p>  Final Project Defined</p>
+
+                <p>
+                Subject matter for your final project is up to you as long as it meets the functional requirements laid out in the Final Project description.
+                It will be challenging to know how to fulfill on Final Project requirements since I still need to show you how to do them. However, please know that the requirements are more about features than subject. In other words, it is more important to pick a project, than to have it all worked out.
+                Whatever subject you choose we will tailor to fit the requirements of the final.
+                By next session pick a subject for your Final Project and write 2-3 paragraphs that answers:
+                Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company)
+                What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work)
+                Why did you choose this subject?</p>
+                </Essay>
+
+
+              
 
 
             </div>

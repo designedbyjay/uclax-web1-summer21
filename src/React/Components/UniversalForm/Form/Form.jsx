@@ -5,7 +5,7 @@ const Form = ({children}) => {
 
     return (
         <FormStyled className='Form'>
-          {children} 
+            { children }
         </FormStyled>
     );
 }
@@ -13,5 +13,5 @@ const Form = ({children}) => {
 export default Form;
 
 const FormStyled = styled.form`
-    
+
 `;

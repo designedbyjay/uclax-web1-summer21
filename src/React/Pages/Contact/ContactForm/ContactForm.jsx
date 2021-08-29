@@ -7,7 +7,42 @@ const ContactForm = () => {
 
   const defaultFormData = {
 
-    fullname: 'Dummy Data',
+    controls: [{
+      id: 'fullname',
+      label: 'Full Name',
+        value: '',
+        type: 'text',
+        validation: {
+          isValid: true,
+          rules: ['required'],
+          message: 'Default Message',
+        }
+
+    },
+    {
+      id: 'email',
+      label: 'Email',
+        value: '',
+        type: 'text',
+        validation: {
+          isValid: true,
+          rules: ['required', 'email'],
+          message: '',
+        }
+      },
+
+    {
+      id: 'message',
+      label: 'Message',
+        value: '',
+        type: 'textarea',
+        validation: {
+          isValid: true,
+          rules: ['required'],
+          message: '',
+        }
+    },
+    ]
   }
     return (
     <ContactFormStyled className="ContactForm">
