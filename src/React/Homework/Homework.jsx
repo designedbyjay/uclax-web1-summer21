@@ -166,17 +166,19 @@ const Homework = () => {
                 number ={ 14}
                 question='Final Project Defined'>
 
-                <p>  Final Project Defined</p>
+                <p> <strong> Find a mobile detailer</strong></p>
 
-                <p>
-                Subject matter for your final project is up to you as long as it meets the functional requirements laid out in the Final Project description.
-                It will be challenging to know how to fulfill on Final Project requirements since I still need to show you how to do them. However, please know that the requirements are more about features than subject. In other words, it is more important to pick a project, than to have it all worked out.
-                Whatever subject you choose we will tailor to fit the requirements of the final.
-                By next session pick a subject for your Final Project and write 2-3 paragraphs that answers:
-                Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company)
-                What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work)
-                Why did you choose this subject?</p>
-                </Essay>
+                    <p>
+                    I’m the client. I run a e-commerce small business selling car care products. My goal is to create a microsite that allows customers to submit their car care detailing business to the microsite. The goal of the microsite is to help customers find car detailing services near them. With this single page app I want to provide a matchmaking service for customers shopping for car care services and the small businesses that provide the services. The purpose is to help build a community of mobile car detailers that list themselves on the website. In turn this will help people discover service providers and don’t like to do the work themselves and have easy access to someone they can hire. </p>
+
+                    <p>
+                    On the flip side for car detailers it’ll be a lead generation tool. The purpose of this tool is to provide a front-facing/ easy to access tools for customers to get services for their car detailing needs. By inputting what services they need and what car they have will spin up a recommended service provider/business. What this will do is provide an easy way to get quotes for the services people are looking to obtain for their cars.
+                    </p> 
+
+                    <p>
+                    I want to expand and grow my current e-commerce business and open up a new revenue stream. This is something I can see myself working on long term beyond the course. My goal is to at least get the single page app to represent the different  kinds of services available from an educational point of view and also provide estimates for the types of car detailing services available. </p>
+           
+               </Essay>
 
 
               
