@@ -16,6 +16,9 @@ export const updateControl = (id, value, dispatch, state) => {
     });
 }
 
+
+
+
 const updateControls = (id, value, currentState) => {
     const newControls = currentState.controls.map((stateControl) => {
         if (stateControl.id === id) {

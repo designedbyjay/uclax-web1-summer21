@@ -15,7 +15,7 @@ const Input = ({control}) => {
 
     return (
         <InputStyled
-            className='Input'
+            className='Input error'
             type={ control.type }
             id={ control.id }
             value={ control.value }
