@@ -5,11 +5,13 @@ const FormMessage = ({control}) => {
 
     const message = control.validation.message;
 
-    if (message.length < 1){ return ';'}
+    console.log('control.validation', control.validation);
+
+    if (message.length < 1){ return ''}
 
     return (
         <FormMessageStyled className='FormMessage'>
-            {Message}
+            {message}
         </FormMessageStyled>
     );
 }

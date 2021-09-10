@@ -1,9 +1,7 @@
 import { createContext } from 'react';
 export default createContext();
 
-const actionTypes ={
-    UF_UPDATE_CONTROL: 'UF: updateControl', 
-}
+
 
 import {actionTypes} from './actionTypes.js';
 
@@ -18,6 +16,13 @@ export const reducer = (state, action) => {
                 ...action.input
             };
         }
+        case actionTypes.UF_SUBMIT_FORM:{
+            return {
+                ...action.newState
+            };
+        }
+
+        
 
 default: {
     return {...state}

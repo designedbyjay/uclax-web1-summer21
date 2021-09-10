@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import FormLabel from './FormLabel.jsx';
 import FormControl from './FormControl.jsx';
+import FormMessage from './FormMessage.jsx';
 
 const FormGroup = ({ control }) => {
 
@@ -10,6 +11,7 @@ const FormGroup = ({ control }) => {
         <FormGroupStyled className='FormGroup'>
             <FormLabel control={ control } />
             <FormControl control={ control } />
+            <FormMessage control={ control } />
         </FormGroupStyled>
     );
 }

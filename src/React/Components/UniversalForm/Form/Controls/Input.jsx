@@ -12,10 +12,11 @@ const Input = ({control}) => {
     const handleUpdate = (e) => {
         updateControl(control.id, e.target.value, dispatch, state);
     }
+const className = (control.validation.isValid) ? 'Input error':'Input';
 
     return (
         <InputStyled
-            className='Input error'
+            className={className}
             type={ control.type }
             id={ control.id }
             value={ control.value }

@@ -6,7 +6,12 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm';
 const ContactForm = () => {
 
   const defaultFormData = {
-
+    apiURL:'/email/send',
+    hasSubmitted: false,
+    request: {},
+    response: {},
+    message: '',
+    
     controls: [{
       id: 'fullname',
       label: 'Full Name',
@@ -15,7 +20,7 @@ const ContactForm = () => {
         validation: {
           isValid: true,
           rules: ['required'],
-          message: 'Default Message',
+          message: '',
         }
 
     },
